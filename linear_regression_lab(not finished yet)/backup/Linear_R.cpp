@@ -1,11 +1,11 @@
 /*
 程序设计架构：
 函数1：矩阵乘法+标量的实现(**x_t,*W,b,length,num)->i
-函数2：代价函数的实现(**x_ts,*W,*b,*y_ts,lenth,num)->err
-函数3：根据计算图求导数(**x_ts,*W,*b,*y_ts,lenth,num)->dW,db
-函数4：梯度下降并保存代价函数误差记录(**x_ts,*W,*b,*y_ts,,lenth,num,*errs,I,Learning_rate) --save>*errs
+函数2：代价函数的实现(*x_ts,*W,*b,*y_ts,lenth,num)->err
+函数3：根据计算图求导数(*x_ts,*W,*b,*y_ts,lenth,num)->dW,db
+函数4：梯度下降并保存代价函数误差记录(*x_ts,*W,*b,*y_ts,,lenth,num,*errs,I,Learning_rate) --save>*errs
 函数5：初始化函数初始化W,b
-函数6：训练函数，完成线性回归的模型训练(**x, *W,  b, *y, length, num, *e, IT, lr)
+函数6：在测试集上跑并记录误差(*x_test,*W,*b,*y_test)->e
 */
 #include "./Linear_R.h"
 
@@ -13,9 +13,8 @@
 predict_t* linear_forward(data_t **x, coef *W, coef b, data_format length, data_format num)
 {
     predict_t *temp;
-    temp = new predict_t[num](); //初始化
 #pragma HLS ARRAY_PARTITION variable=temp complete dim=0
-
+    temp = new predict_t[num](); //初始化
 #pragma HLS PIPELINE II=1
     for(int i=0; i<num; i++)
     {
@@ -36,11 +35,9 @@ predict_t cost_function(data_t **x, coef *W, coef b, label *y, data_format lengt
 #pragma HLS ARRAY_PARTITION variable=x complete dim=1
 #pragma HLS ARRAY_PARTITION variable=W complete dim=0
 #pragma HLS ARRAY_PARTITION variable=y complete dim=0
-
     predict_t *temp;
     temp = linear_forward(x,W,b,length,num);
     error err=0;
-
 #pragma HLS PIPELINE II=1
     for(int i=0;i<num;i++)
     {
@@ -57,15 +54,13 @@ dp gradient(data_t **x, coef *W, coef b, label *y, data_format length, data_form
 #pragma HLS ARRAY_PARTITION variable=x complete dim=1
 #pragma HLS ARRAY_PARTITION variable=W complete dim=0
 #pragma HLS ARRAY_PARTITION variable=y complete dim=0
-
     dp grad;
 #pragma HLS ARRAY_PARTITION variable=grad complete dim=0
-
     coef* dW;
-    dW = new coef[num]();
 #pragma HLS ARRAY_PARTITION variable=dW complete dim=0
-
+    dW = new coef[num]();
     coef db;
+#pragma HLS ARRAY_PARTITION variable=db complete dim=0
 
     predict_t* forward_temp = linear_forward(x, W, 0, length, num);
 #pragma HLS PIPELINE II=1
@@ -95,34 +90,33 @@ void fit(data_t **x, coef* W, coef* b, label *y, data_format length, data_format
 #pragma HLS ARRAY_PARTITION variable=W complete dim=0
 #pragma HLS ARRAY_PARTITION variable=y complete dim=0
 #pragma HLS ARRAY_PARTITION variable=e complete dim=0
-
     e = new error[IT]();
     dp grad;
 #pragma HLS ARRAY_PARTITION variable=grad complete dim=0
-
     for(int j=0; j<IT; j++){
 #pragma HLS PIPELINE II=1
         e[j] = cost_function(x, W, *b, y, length, num);
-        grad = gradient(x, W, *b, y, length, num);
 
+        grad = gradient(x, W, *b, y, length, num);
         for(int i=0;i<length;i++){
 #pragma HLS PIPELINE II=1
             W[i] = W[i] - lr*grad->dW[i];
         }
-
         *b = *b -lr*grad->db;
     }
 }
 
 //init
-void init(coef* W, coef* b, data_format length)
+data_format* init(data_format length)
 {
+    coef *W,*b;
 #pragma HLS ARRAY_PARTITION variable=W complete dim=0
 #pragma HLS PIPELINE II=1
     for(int i=0; i<length; i++){
         W[i]=rand() % 10;
     }
     *b = rand() % 10;
+    return W,b;
 }
 
 //train
@@ -138,9 +132,8 @@ void train(data_t **x, coef *W, coef* b, label *y, data_format length, data_form
 #pragma HLS INTERFACE s_axilite port=IT  bundle=CTRL
 #pragma HLS INTERFACE s_axilite port=lr  bundle=CTRL
 #pragma HLS INTERFACE s_axilite port=return bundle=CTRL
-    //initiating
-    init(W, b, N);
-    //fit the function
+    //初始化
+    W,b=init(N);
     fit(x, W, b, y, length, num, e, IT, lr);
 }
 
