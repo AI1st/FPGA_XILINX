@@ -1,0 +1,21 @@
+verilog xil_defaultlib --include "G:/Vitis_HLS/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/aed8/hdl" --include "../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ip/design_1_fir_wrap_0_0/drivers/fir_wrap_v1_0/src" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_control_s_axi.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_CTRL_s_axi.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_fir_wrap_Pipeline_VITIS_LOOP_41_1.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_fir_wrap_Pipeline_VITIS_LOOP_47_2.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_flow_control_loop_pipe_sequential_init.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_gmem_m_axi.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap_mul_32s_32s_32_2_1.v" \
+"../../../../fir_vivado_prj.gen/sources_1/bd/design_1/ipshared/2b8e/hdl/verilog/fir_wrap.v" \
+"../../../bd/design_1/ip/design_1_fir_wrap_0_0/sim/design_1_fir_wrap_0_0.v" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+"../../../bd/design_1/ip/design_1_auto_us_0/sim/design_1_auto_us_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

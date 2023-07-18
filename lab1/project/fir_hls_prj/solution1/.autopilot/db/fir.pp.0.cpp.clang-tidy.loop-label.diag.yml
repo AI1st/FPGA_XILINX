@@ -1,0 +1,31 @@
+---
+MainSourceFile:  'G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/.autopilot/db/fir.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_15_1:  '
+    FileOffset:      15
+    FilePath:        'G:\fpga_design\fpga_learning\fpga_summer_camp\res\Lab1_FIR\src\fir.cpp'
+    Replacements:    
+      - FilePath:        'G:\fpga_design\fpga_learning\fpga_summer_camp\project\fir_hls_prj\solution1\.autopilot\db\fir.pp.0.cpp'
+        Offset:          10185
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_15_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_41_1:  '
+    FileOffset:      41
+    FilePath:        'G:\fpga_design\fpga_learning\fpga_summer_camp\res\Lab1_FIR\src\fir.cpp'
+    Replacements:    
+      - FilePath:        'G:\fpga_design\fpga_learning\fpga_summer_camp\project\fir_hls_prj\solution1\.autopilot\db\fir.pp.0.cpp'
+        Offset:          11039
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_41_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_47_2:  '
+    FileOffset:      47
+    FilePath:        'G:\fpga_design\fpga_learning\fpga_summer_camp\res\Lab1_FIR\src\fir.cpp'
+    Replacements:    
+      - FilePath:        'G:\fpga_design\fpga_learning\fpga_summer_camp\project\fir_hls_prj\solution1\.autopilot\db\fir.pp.0.cpp'
+        Offset:          11118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_47_2: '
+...

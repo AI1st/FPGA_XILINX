@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_98' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.451+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_97' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.419+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_96' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.395+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_95' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.371+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_94' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.348+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_93' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.297+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_92' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.277+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_91' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.243+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_90' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.216+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_89' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.197+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_88' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.166+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_87' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.132+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_86' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.087+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_85' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.067+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_84' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.043+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_83' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.025+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_82' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:07.007+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_81' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.989+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_80' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.962+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_79' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.929+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_78' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.901+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_77' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.853+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_76' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.806+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_75' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.752+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_74' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.746+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_73' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.738+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_72' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.733+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_71' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.725+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_70' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.718+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_69' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.536+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_68' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.517+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_67' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.495+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_66' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.476+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_65' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.461+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_64' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.454+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_63' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.447+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_62' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.439+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_61' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.434+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_60' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.427+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_59' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.421+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_58' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.414+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_57' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.407+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_56' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.402+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_55' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.397+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_54' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.390+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_53' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:06.382+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_52' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.931+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_51' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.886+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_50' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.859+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_49' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.840+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_48' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.817+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_47' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.792+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_46' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.770+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_45' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.746+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_44' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.725+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_43' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.685+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_42' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.648+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_41' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.624+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_40' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.601+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_39' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.586+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_38' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.559+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_37' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.528+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_36' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.491+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_35' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.465+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_34' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.445+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_33' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.416+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_32' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.400+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_31' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.389+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_30' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.383+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_29' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.376+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_28' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.371+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_27' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.337+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_26' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.331+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_25' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.129+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_24' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.121+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_23' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.116+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_22' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.109+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_21' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.103+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_20' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.095+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_19' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:05.060+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_18' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.866+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_17' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.859+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_16' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.852+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_15' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.847+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_14' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.840+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_13' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.833+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_12' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.826+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_11' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.790+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_10' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.626+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_9' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.601+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_8' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.595+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_7' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.567+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_6' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.541+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_5' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.535+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_4' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.511+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_3' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.501+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_2' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.487+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_1' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.461+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'c_0' is power-on initialization." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.438+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:04.396+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fir_wrap_Pipeline_VITIS_LOOP_47_2/m_axi_gmem_BREADY' to 0." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:02.467+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fir_wrap_Pipeline_VITIS_LOOP_47_2/m_axi_gmem_ARUSER' to 0." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:02.459+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fir_wrap_Pipeline_VITIS_LOOP_47_2/m_axi_gmem_ARREGION' to 0." projectName="fir_hls_prj" solutionName="solution1" date="2023-07-12T23:22:02.452+0800" type="Warning"/>
+      </synLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

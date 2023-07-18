@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Jul 12 23:24:06 2023
+# Process ID: 2896
+# Current directory: G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/fir_wrap/xsim_script.tcl}
+# Log file: G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/sim/verilog/xsim.log
+# Journal file: G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/sim/verilog\xsim.jou
+# Running On: xionglexiang, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+source xsim.dir/fir_wrap/xsim_script.tcl
+# xsim {fir_wrap} -autoloadwcfg -tclbatch {fir_wrap.tcl}
+Time resolution is 1 ps
+source fir_wrap.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "3305000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 3365 ns : File "G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/sim/verilog/fir_wrap.autotb.v" Line 502
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Jul 12 23:24:45 2023...

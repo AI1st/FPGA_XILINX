@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fir.cpp" path="G:\fpga_design\fpga_learning\fpga_summer_camp\res\Lab1_FIR\src\fir.cpp"/>
+    <originFiles name="fir.h" path="G:\fpga_design\fpga_learning\fpga_summer_camp\res\Lab1_FIR\src\fir.h"/>
+  </source>
+  <testbench>
+    <originFiles name="fir_tb.cpp" path="G:\fpga_design\fpga_learning\fpga_summer_camp\res\Lab1_FIR\src\fir_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

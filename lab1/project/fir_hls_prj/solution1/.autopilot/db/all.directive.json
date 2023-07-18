@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "fir_wrap",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "fir_wrap"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/csynth.tcl",
+    "sourceLine": 16,
+    "success": true
+  }
+]

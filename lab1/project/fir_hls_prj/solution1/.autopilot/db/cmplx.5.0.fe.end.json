@@ -1,0 +1,50 @@
+{
+    "0": {
+        "name": "fir_wrap",
+        "file": "fir.cpp",
+        "fileloc": "31",
+        "instructions": "37",
+        "total_instructions": "771",
+        "calls": "2 1",
+        "basicblocks": "1"
+    },
+    "1": {
+        "name": "fir_wrap_Pipeline_VITIS_LOOP_47_2",
+        "file": "fir.cpp",
+        "fileloc": "0",
+        "instructions": "516",
+        "total_instructions": "516",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "G": "197",
+            "L": "1"
+        },
+        "stores": {
+            "G": "98",
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "fir_wrap_Pipeline_VITIS_LOOP_41_1",
+        "file": "fir.cpp",
+        "fileloc": "0",
+        "instructions": "218",
+        "total_instructions": "218",
+        "calls": "",
+        "basicblocks": "104",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "G": "99",
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

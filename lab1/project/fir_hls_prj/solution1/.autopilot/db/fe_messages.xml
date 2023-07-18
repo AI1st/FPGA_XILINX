@@ -1,0 +1,51 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=c complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=shift_reg complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="G:/fpga_design/fpga_learning/fpga_summer_camp/project/fir_hls_prj/solution1/csynth.tcl:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=fir_wrap" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=coef offset=slave depth=99" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=x offset=slave depth=100" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=y offset=slave depth=100" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=len bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../res/Lab1_FIR/src/fir.cpp:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir_wrap" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../res/Lab1_FIR/src/fir.cpp:15:19" msg_body="Loop 'VITIS_LOOP_15_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_15_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../res/Lab1_FIR/src/fir.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_15_1' (../res/Lab1_FIR/src/fir.cpp:15:19) in function 'fir' completely with a factor of 99">
+        <args Factor="99" LoopLoc="../res/Lab1_FIR/src/fir.cpp:15:19" LoopName="VITIS_LOOP_15_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../res/Lab1_FIR/src/fir.cpp:9:0" msg_body="Applying array_partition to '_ZZ3firPiiE9shift_reg': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZZ3firPiiE9shift_reg"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../res/Lab1_FIR/src/fir.cpp:3:0" msg_body="Applying array_partition to 'c': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="c"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="../res/Lab1_FIR/src/fir.cpp:50:2" msg_body="Automatically inlining function 'fir(int*, int)' to improve effectiveness of pipeline pragma in function 'fir_wrap(int*, int*, int, int*)'">
+        <args Callee="fir(int*, int)" Callee-DebugLoc="File ../res/Lab1_FIR/src/fir.cpp Line 6 Column 0" Caller="fir_wrap(int*, int*, int, int*)" Caller-DebugLoc="File ../res/Lab1_FIR/src/fir.cpp Line 32 Column 0"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

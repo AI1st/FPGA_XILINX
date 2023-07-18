@@ -1,0 +1,12 @@
+<pragmas>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="49" pragmaType="pipeline" parentfunction="fir_wrap" off="0" ii="1" rewind="0" style=""/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="43" pragmaType="pipeline" parentfunction="fir_wrap" off="0" ii="1" rewind="0" style=""/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="33" pragmaType="interface" parentfunction="fir_wrap" mode="m_axi" port="coef" bundle="" offset="slave" name="" depth="99" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="34" pragmaType="interface" parentfunction="fir_wrap" mode="m_axi" port="x" bundle="" offset="slave" name="" depth="100" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="35" pragmaType="interface" parentfunction="fir_wrap" mode="m_axi" port="y" bundle="" offset="slave" name="" depth="100" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="36" pragmaType="interface" parentfunction="fir_wrap" mode="s_axilite" port="len" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="37" pragmaType="interface" parentfunction="fir_wrap" mode="s_axilite" port="" bundle="CTRL" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="14" pragmaType="pipeline" parentfunction="fir" off="0" ii="1" style=""/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="8" pragmaType="array_partition" parentfunction="fir" dim="0" factor="0" mode="complete" dynamic="0" variable="c"/>
+<pragma file="../res/Lab1_FIR/src/fir.cpp" line="10" pragmaType="array_partition" parentfunction="fir" dim="0" factor="0" mode="complete" dynamic="0" variable="_ZZ3firPiiE9shift_reg"/>
+</pragmas>
